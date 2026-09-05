@@ -1,0 +1,17 @@
+{
+    "allow_change": ["string_operations.h", "string_operations.cpp"],
+    "tests": "test_string_operations",
+    "solutions": "private",
+    "forbidden_functions": [
+        "to_string",
+        "to_chars",
+        "starts_with",
+        "ends_with"
+    ],
+    "forbidden_regexp": [
+        "std\\s*::\\s*to_string",
+        "std\\s*::\\s*to_chars",
+        "starts_with",
+        "ends_with"
+    ]
+}
